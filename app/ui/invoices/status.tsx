@@ -1,6 +1,10 @@
 import { CheckIcon, ClockIcon } from '@heroicons/react/24/outline';
 import clsx from 'clsx';
 
+
+
+
+// 조건부로 스타일 지정. clsx 라이브러리는 클래스 이름을 쉽게 전환 할수 있음. 
 export default function InvoiceStatus({ status }: { status: string }) {
   return (
     <span

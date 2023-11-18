@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+// 위는 스타일 지시문
 
 input[type='number'] {
   -moz-appearance: textfield;
